@@ -52,7 +52,7 @@ class TestCalculator(unittest.TestCase):
         expected = 2
 
         # action
-        actual = Calculator.mul(a, b)
+        actual = Calculator.div(a, b)
 
         # assert
         self.assertEqual(expected, actual)
